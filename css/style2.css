@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,700;1,300&display=swap');
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.img-logo{
+    position: absolute;
+    right: 485px;
+}
+
+#menu ul {
+    padding:0px;
+    margin:0px;
+    float: left;
+    width: 100%;
+    right: 4cm;
+    list-style:none;
+    font:80% Tahoma;
+    right: 4cm;
+    font-size: 18px;
+}
+
+#menu{
+    z-index: 10;
+    width:100vw;
+    height: 5vw;
+    background-color: rgb(0, 0, 0);
+}
+
+#menu ul li { 
+    display: inline; 
+}
+
+#menu ul li a {
+    background-color:black;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 2px 10px;
+    float: left;
+    right: 200cm;
+    margin: 30px;
+}
+
+#menu ul li a:hover {
+    background-color:white;
+    color: rgb(250, 0, 0);
+    border-bottom:3px solid #EA0000;
+}
+
+.cadastro {
+
+    float: right;
+}
+.login {
+    float: right;
+}
+.home {
+    color: #ec1839;
+}
+
+.banner{
+    width: 100vw;
+    height: 27vw;
+    background-image: url(../img/work.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.primeira-sessao{
+    position: absolute;
+    width: 30cm;
+    height: 6cm;
+    left: 100px;
+}
+
+.segunda-sessao{
+    display: flex;
+    width: 100vw;
+    height: 15vw;
+    background-color: #ec1839;
+    position:relative;
+    left: 6px;
+    top: 260px;
+}
+
+.span-formulario{
+    position: relative;
+    top: 6vw;
+    left: 1vw;
+    color: white;
+    z-index: 10;
+}
+
+.formulario{
+    background: rgba(0, 0, 0, 0.30);
+    width: 30cm;
+    height: 5cm;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 5vw;
+}
+
+.btn-search{
+    margin-right: 49px;
+    width: 270px;
+    height: 52px;
+    display: block;
+    position: relative;
+    top: 35%;
+    background-color:#ec1839;
+    color:white;
+    border: solid 2px black
+}
+
+#search {
+    width: 270px;
+    height: 52px;
+    display: block;
+    position: relative;
+    top: 35%;
+    left: 20%;
+}
+
+#location{
+    width: 270px;
+    height: 52px;
+    display: block;
+    position: relative;
+    top: 35%;
+}
+
+.img-visao{
+    width: 17vw;
+}

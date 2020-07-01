@@ -1,0 +1,247 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,700;1,300&display=swap');
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #D7DBDD;
+}
+header{
+    height: 60px;
+    width: 100%;
+    background-color: #333; 
+}
+.img-logo{
+    position: absolute;
+    right: 485px;
+}
+
+#menu ul {
+    padding:0px;
+    margin:0px;
+    float: left;
+    width: 100%;
+    right: 4cm;
+    list-style:none;
+    font:80% Tahoma;
+    right: 4cm;
+    font-size: 18px;
+}
+
+#menu{
+    z-index: 10;
+    width:100%;
+    height: 5vw;
+    background-color: rgb(0, 0, 0);
+}
+
+#menu ul li { 
+    display: inline; 
+}
+
+#menu ul li a {
+    background-color:black;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 2px 10px;
+    float: left;
+    right: 200cm;
+    margin: 30px;
+}
+
+#menu ul li a:hover {
+    background-color:white;
+    color: rgb(250, 0, 0);
+    border-bottom:3px solid #EA0000;
+}
+
+.cadastro {
+
+    float: right;
+}
+.login {
+    float: right;
+}
+.home {
+    color: #ec1839;
+}
+.sobre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/b.jpg);
+    background-size: cover;
+    
+}
+.caixa{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.texto{
+    width: 65%;
+    background-color: green;
+    height: 65%;
+    font-size: large;
+    margin-top: 10%;
+    padding: 6% 6%;
+    text-align: justify;
+    background: #ec1839;
+    color: white;
+}
+.sobre h1{
+    background: rgba(0,0,0,0.9);
+    width: 35%;
+    height: 65%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10%;
+    font-weight: 700;
+    color: whitesmoke;
+    padding: 15% 3%;
+}
+.imagem{
+    background-image: url(img/a.jpg);
+    width: 50%;
+    height: 50%;
+}
+.devs{
+    width: 100%;
+    height: 100vh;
+    background-color: #D7DBDD;
+}
+.devs h2{
+    text-transform: uppercase;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    color: whitesmoke;
+    padding: 2% 10%;
+    font-weight: 600;
+    letter-spacing: .2rem;
+}
+.info{
+    /* background-color: turquoise; */
+    width: 100%;
+    height: 100vh;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.info div{
+    /* background-color: violet; */
+    width: 26%;
+    height: 40%;
+    margin-bottom: 20%;
+    padding: 2%;
+
+}
+.info h4{
+    margin-top: 10%;
+    color: #ec1839;
+    font-weight: 600;
+}
+.info p{
+    text-align: justify;
+}
+.foto img{
+    background-color: #ddd;
+    border-radius: 100%;
+    height: 200px;
+    object-fit: cover;
+    width: 200px;  
+    margin-left: 15%;
+}
+
+.foto a{
+    color: #c46976;
+    text-decoration: none;
+}
+.foto a:hover{
+    color: #ec1839;
+}
+footer{
+    background-color: #000;
+    margin-top: 40%;
+    text-align: center;
+    height: 523px;
+
+}
+
+.Container{
+    padding-top: 2%;
+    padding-right:29%;
+    color: white;
+    overflow: hidden;
+}
+
+form {
+    padding-right: 4%;
+    padding-top: 4%;
+
+}
+
+#email{
+    height: 53px;
+    width: 23%;
+    text-align: center;
+}
+
+label{
+    font-size: 29px;
+    color: white;
+}
+
+.divlogo{
+    margin-top: 8%;
+    margin-left: 6%;
+
+}
+
+
+
+article{
+    float: right;
+    width: 46%;
+    height: 26%;
+    margin-top: -4%;
+    border-left: solid 5px crimson;
+
+}
+
+#botao{
+    margin-left: 8%;
+    width: 12%;
+    height: 51px;
+    border-radius: 10px;
+    color: black;
+    font-size: 28px;
+    border-color: red;
+    background-color: red;
+}
+
+#botao:hover{
+
+        background-color: white;
+}
+.atitulo{
+    color: white;
+}
+@media (max-width: 1301px){
+
+   header{
+       width: 100%;
+   }
+
+}
+
