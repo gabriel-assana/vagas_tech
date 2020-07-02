@@ -239,7 +239,7 @@ label{
         .logo img{
             position: relative;
             width: 260px;
-            right: -20%;
+            right: -11%;
         }
         #menu{   
             width: 100vw;
@@ -257,37 +257,37 @@ label{
         }
         .home{
             position: relative;
-            left: 8vw;
+            left: 5vw;
          }
         
         .portfolio{
             position: relative;
-            left: 13vw;
+            left: 4vw;
         }
     
         .cadastro{
             position: relative;
             z-index: 1;
-            left: -10vw;
+            left: -4vw;
             /* top: -175px; */
         }
     
         .login{
             position: relative;
             z-index: 1;
-            left: -12vw;
+            left: -3vw;
             /* top: -178px; */
         }
         .banner{
             width: 100vw;
-            height: 93vw;
+            height: 93vh;
             background-image: url(../img/work.jpg);
         }
         
         .formulario{
             position: absolute;
             width: 310px;
-            left: 81px;
+            left: 28px;
             height: 315px;
             top: 30%;
         }
@@ -299,7 +299,7 @@ label{
         .segunda-sessao {
             display: flex;
             width: 100vw;
-            height: 58vw;
+            height: 50vh;
             background-color: #ec1839;
             position: relative;
             top: 459px;
@@ -324,14 +324,14 @@ label{
         .missao h2{
             width: 69vw;
             position: relative;
-            left: -73px;
+            left: -63px;
             top: 20%;
             font-size: 11pt;
         }
         
         .span-formulario{
             position: relative;
-            left: 100px;
+            left: 44px;
             top: 85px;
         }
         
@@ -359,8 +359,9 @@ label{
             left: 0px;
         }
         .form-email-footer {
-            padding-left: -10%;
-            width: 102vw;
+            padding-left: 2%;
+            margin-top: 2%;
+            width: 97vw;
             font-size: 12%;
         }
         .campost {
@@ -371,7 +372,7 @@ label{
         }
         #botao {
             margin-left: 5%;
-            width: 29%;
+            width: 36%;
             height: 20%;
         }
         label {
@@ -381,7 +382,7 @@ label{
             height: 27px;
         }
         .atitulo {
-            top: -2px;
+            top: 0px;
             font-size: 12pt;
         }
         .article-footer{
@@ -396,11 +397,12 @@ label{
         }
         .Container{
             padding-right: 11%;
+            padding-top: 8%;
         }
         footer {
             width: 100%;
             text-align: center;
-            margin-top: 60%;
+            margin-top: 58%;
             height: 380px;
         }
     }
