@@ -85,8 +85,8 @@ header{
     width: 100vw;
     height: 20vw;
     background-color: #ec1839;
-    position:relative;
-    top: 285px;
+    position:absolute;
+    top: 385px;
 }
 
 .missao{
