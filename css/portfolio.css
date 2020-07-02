@@ -201,8 +201,7 @@ footer{
 }
 
 .form-email-footer {
-    padding-right: 3%;
-    padding-left: 1%;
+    padding-left: 12%;
     padding-top: 2%;
     width: 50vw;
 }
@@ -215,7 +214,7 @@ footer{
 }
 
 label{
-    font-size: 29px;
+    font-size: 24px;
     color: white;
 }
 
@@ -236,11 +235,11 @@ label{
 
 #botao{
     margin-left: 8%;
-    width: 24%;
-    height: 51px;
+    width: 22%;
+    height: 41px;
     border-radius: 10px;
     color: black;
-    font-size: 25px;
+    font-size: 22px;
     border-color: red;
     background-color: red;
     transition: 2000ms;

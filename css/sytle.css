@@ -66,7 +66,7 @@ header{
 
 .banner{
     width: 100vw;
-    height: 27vw;
+    height: 60vh;
     background-image: url(../img/work.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -87,17 +87,18 @@ header{
     background-color: #ec1839;
     position:absolute;
     top: 385px;
+    box-shadow: 0px -4px 23px rgb(36, 36, 36);
 }
 
 .missao{
     position: relative;
-    top: 55px;
-    right: -176px;
-    width: 760px;
+    top: 70px;
+    right: -205px;
+    width: 727px;
     text-align: justify;
-    font-size: 11pt;
+    font-size: 10pt;
+    color: rgb(19, 18, 18);
 }
-
 .span-formulario{
     position: relative;
     top: 7vw;
@@ -108,7 +109,7 @@ header{
 }
 
 .formulario{
-    background: rgba(0, 0, 0, 0.30);
+    background: rgba(0, 0, 0, 0.712);
     width: 30cm;
     height: 5cm;
     display: flex;
@@ -129,6 +130,7 @@ header{
     border: solid 2px black;
     padding: 10px;
     font-size: 14pt;
+    border: 0;
 }
 
 #search {
@@ -181,8 +183,8 @@ footer{
 }
 
 .form-email-footer {
-    padding-right: 4%;
-    padding-top: 4%;
+    padding-left: 6%;
+    padding-top: 3%;
     width: 50vw;
 }
 
@@ -194,7 +196,7 @@ footer{
 }
 
 label{
-    font-size: 29px;
+    font-size: 24px;
     color: white;
 }
 
@@ -214,15 +216,16 @@ label{
 }
 
 #botao{
-    margin-left: 8%;
-    width: 21%;
-    height: 51px;
+    margin-left: 4%;
+    width: 22%;
+    height: 41px;
     border-radius: 10px;
     color: black;
-    font-size: 25px;
+    font-size: 22px;
     border-color: red;
     background-color: red;
     transition: 2000ms;
+    font-weight: bold;
 }
 
 #botao:hover{
