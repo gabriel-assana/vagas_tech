@@ -18,6 +18,9 @@ header{
     background-color: #333; 
     box-shadow: 0px 0px 10px gray;
 }
+main{
+    padding-top: 7vh;
+}
 .img-logo{
     position: absolute;
     right: 485px;
