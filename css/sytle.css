@@ -11,7 +11,9 @@
     position: absolute;
     right: 485px;
 }
-
+header{
+    box-shadow: 0px 0px 10px gray;
+}
 #menu ul {
     padding:0px;
     margin:0px;
@@ -83,21 +85,24 @@
     width: 100vw;
     height: 22vw;
     background-color: #ec1839;
-    position:relative;
-    top: 260px;
+    position:absolute;
+    top: 385px;
 }
 
 .missao{
     position: relative;
-    top: 45px;
+    top: 55px;
     right: -176px;
     width: 760px;
+    text-align: justify;
+    font-size: 11pt;
 }
 
 .span-formulario{
     position: relative;
-    top: 6vw;
-    left: 1vw;
+    top: 7vw;
+    left: 4vw;
+    font-size: 14pt;
     color: white;
     z-index: 10;
 }
@@ -123,6 +128,7 @@
     color:white;
     border: solid 2px black;
     padding: 10px;
+    font-size: 14pt;
 }
 
 #search {
@@ -157,13 +163,13 @@ footer{
     background-color: #000;
     width: 100vw;
     text-align: center;
-    margin-top: 180px;
+    margin-top: 210px;
     color: white;
     height: 420px;
 }
 
 .Container{
-    padding-top: 2%;
+    padding-top: 4%;
     padding-right:29%;
     color: white;
     overflow: hidden;
@@ -213,7 +219,7 @@ label{
     height: 51px;
     border-radius: 10px;
     color: black;
-    font-size: 28px;
+    font-size: 25px;
     border-color: red;
     background-color: red;
     transition: 2000ms;
@@ -229,188 +235,175 @@ label{
 }
 
 @media (max-width: 800px) {
-    
-    .logo img{
-        position: relative;
-        width: 128px;
-        right: -78px;
-    }
-
-    #menu{   
-        width: 100vw;
-        height: 6cm;
-     }
-
-    .lista-1{
-        height: 303px;
-    }
-
-    .home{
-        position: relative;
-        left: -8vw;
-     }
-    
-    .portifolio{
-        position: relative;
-        left: -8vw;
-    }
-
-    .cadastro{
-        position: relative;
-        z-index: 1;
-        top: -175px;
-    }
-
-    .login{
-        position: relative;
-        z-index: 1;
-        top: -178px;
-    }
-   
-    .banner{
-        width: 100vw;
-        height: 93vw;
-        background-image: url(../img/work.jpg);
-    }
-    
-    .formulario{
-        position: absolute;
-        width: 300px;
-        left: 10px;
-        height: 275px;
-    }
-
-    .div-1{
-        display: inline;
-    }
-    
-    .segunda-sessao {
-        display: flex;
-        width: 100vw;
-        height: 58vw;
-        background-color: #ec1839;
-        position: relative;
-        top: 170px;
-    }
-
-    .missao {
-        font-size: 8px;
-        position: relative;
-        top: 13px;
-        right: 63px;
-        width: 717px;
-    }
-
-    .img-visao {
-        width: 50vw;
-        position: relative;
-        left: 68px;
-        top: 23px;
-        opacity: 0.2;   
-    }
-    
-    .missao h2{
-        width: 60vw;
-        position: relative;
-        left: -27px;
-    }
-
-    .span-formulario{
-        position: relative;
-        left: 33px;
-    }
-    
-    #search{
-        left: 14px;
-        top: 60px;
-    }
-    
-    #location{
-        position: absolute;
-        top: 140px;
-        left: 14px;
-    }
-    
-    .btn-search{
-        position: absolute;
-        top: 212px;
-        left: 14px;
-    }
-
-    .primeira-sessao {
-        position: absolute;
-        width: 100vw;
-        height: 6cm;
-        left: 0px;
-    }
-
-    .campost {
-        position: relative;
-        left: 43px;
-        font-size: 12px;
-    }
-
-    label{
-        font-size: 16px;
-        color: white;
-    }
-
-    #email{
-        height: 14px;
-        width: 66%;
-    }
-
-    #botao {
-        position: relative;
-        margin-left: 8%;
-        bottom: -9px;
-        width: 69px;
-        height: 24px;
-        border-radius: 10px;
-        color: black;
-        font-size: 12px;
-        border-color: red;
-        background-color: red;
-        transition: 400ms;
-    }
-    
-    .img-logo-footer {
-        width: 38vw;
-    }
-    
-    .divlogo {
-       margin-top: 59%;
-        margin-left: -5%;
-    }
+    @media screen and (max-width: 520px) {
+        .logo img{
+            position: relative;
+            width: 260px;
+            right: -11%;
+        }
+        #menu{   
+            width: 100vw;
+            height: 4cm;
+        }
+        #menu ul{
+            margin-bottom: -14%;
+        }
+        #menu ul li a{
+            margin: 0;
+            font-size: smaller;
+        }
+        .lista-1{
+            height: 129px;
+        }
+        .home{
+            position: relative;
+            left: 5vw;
+         }
         
-    .backgroud-article {
-        position: absolute;
-        bottom: -40px;
-        width: 181px;
-        right: -18px; 
-    }
+        .portfolio{
+            position: relative;
+            left: 4vw;
+        }
+    
+        .cadastro{
+            position: relative;
+            z-index: 1;
+            left: -4vw;
+            /* top: -175px; */
+        }
+    
+        .login{
+            position: relative;
+            z-index: 1;
+            left: -3vw;
+            /* top: -178px; */
+        }
+        .banner{
+            width: 100vw;
+            height: 93vh;
+            background-image: url(../img/work.jpg);
+        }
         
-    .article-footer {
-        position: relative;
-        bottom: -18px;
-        float: right;
-        width: 48%;
-        margin-top: -3%;
+        .formulario{
+            position: absolute;
+            width: 310px;
+            left: 28px;
+            height: 315px;
+            top: 30%;
+        }
+        
+        .div-1{
+            display: inline;
+        }
+        
+        .segunda-sessao {
+            display: flex;
+            width: 100vw;
+            height: 50vh;
+            background-color: #ec1839;
+            position: relative;
+            top: 459px;
+        }
+        
+        .missao {
+            font-size: 8px;
+            position: relative;
+            top: 13px;
+            right: 63px;
+            width: 717px;
+        }
+        
+        .img-visao {
+            width: 50vw;
+            position: relative;
+            left: 8px;
+            top: 23px;
+            opacity: 0.2;   
+        }
+        
+        .missao h2{
+            width: 69vw;
+            position: relative;
+            left: -63px;
+            top: 20%;
+            font-size: 11pt;
+        }
+        
+        .span-formulario{
+            position: relative;
+            left: 44px;
+            top: 85px;
+        }
+        
+        #search{
+            left: 14px;
+            top: 60px;
+        }
+        
+        #location{
+            position: absolute;
+            top: 140px;
+            left: 14px;
+        }
+        
+        .btn-search{
+            position: absolute;
+            top: 212px;
+            left: 14px;
+        }
+        
+        .primeira-sessao {
+            position: absolute;
+            width: 100vw;
+            height: 6cm;
+            left: 0px;
+        }
+        .form-email-footer {
+            padding-left: 2%;
+            margin-top: 2%;
+            width: 97vw;
+            font-size: 12%;
+        }
+        .campost {
+            position: relative;
+            left: 23px;
+            font-weight: bold;
+            font-size: smaller;
+        }
+        #botao {
+            margin-left: 5%;
+            width: 36%;
+            height: 20%;
+        }
+        label {
+            font-size: 19px;
+        }
+        #email {
+            height: 27px;
+        }
+        .atitulo {
+            top: 0px;
+            font-size: 12pt;
+        }
+        .article-footer{
+            margin-top: 10%;
+        }
+        .divlogo {
+            margin-top: 13%;
+            margin-left: 1%;
+        }
+        .divlogo img {
+            width: 30%;
+        }
+        .Container{
+            padding-right: 11%;
+            padding-top: 8%;
+        }
+        footer {
+            width: 100%;
+            text-align: center;
+            margin-top: 58%;
+            height: 380px;
+        }
     }
-       
-    .atitulo {
-        color: white;
-        position: relative;
-        top: 11px;
-    }
-            
-    .form-email-footer {
-        bottom:-332px;
-        position: absolute;
-        padding-right: 4%;
-        padding-top: 4%;
-        width: 50vw;
-    }
-
-
 }
