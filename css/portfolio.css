@@ -320,7 +320,7 @@ label{
         
         .portfolio{
             position: relative;
-            left: 9vw;
+            left: 8vw;
         }
     
         .cadastro{
@@ -333,7 +333,7 @@ label{
         .login{
             position: relative;
             z-index: 1;
-            left: -4vw;
+            left: -3vw;
             /* top: -178px; */
         }
         .caixa{
