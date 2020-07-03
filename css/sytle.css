@@ -290,7 +290,7 @@ label{
         .formulario{
             position: absolute;
             width: 320px;
-            margin-left: 7%;
+            margin-left: 8%;
             height: 315px;
             top: 30%;
         }
@@ -334,7 +334,7 @@ label{
         
         .span-formulario{
             position: relative;
-            left: 33px;
+            left: 50px;
             top: 85px;
         }
         
@@ -408,7 +408,7 @@ label{
         footer {
             width: 100%;
             text-align: center;
-            margin-top: 51%;
+            margin-top: 46%;
             height: 380px;
         }
     }
