@@ -67,7 +67,7 @@ header{
 .banner{
     width: 100vw;
     height: 60vh;
-    background-image: url(../img/work.jpg);
+    background-image: url(../img/work.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -109,13 +109,14 @@ header{
 }
 
 .formulario{
-    background: rgba(0, 0, 0, 0.712);
+    background: rgba(0, 0, 0, 0.884);
     width: 30cm;
     height: 5cm;
     display: flex;
     justify-content: space-between;
     position: absolute;
     top: 7vw;
+    border-radius: 3px;
 }
 
 .btn-search{
