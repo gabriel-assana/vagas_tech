@@ -294,20 +294,17 @@ label{
 /*seletores para celurares*/
 @media (max-width: 800px) {
     @media screen and (min-width: 300px) {
-        body{
-            width: 100%;
-        }
         .logo img{
             position: relative;
             width: 260px;
-            right: -20%;
+            right: -11%;
         }
         #menu{   
             width: 100vw;
             height: 4cm;
         }
         #menu ul{
-            margin-bottom: -14%;
+            margin-bottom: -20%;
         }
         #menu ul li a{
             margin: 0;
@@ -318,44 +315,47 @@ label{
         }
         .home{
             position: relative;
-            left: 8vw;
-        }
+            left: 5vw;
+         }
         
         .portfolio{
             position: relative;
-            left: 13vw;
+            left: 4vw;
         }
-
+    
         .cadastro{
             position: relative;
             z-index: 1;
-            left: -10vw;
+            left: -4vw;
             /* top: -175px; */
         }
-
+    
         .login{
             position: relative;
             z-index: 1;
-            left: -12vw;
+            left: -3vw;
             /* top: -178px; */
         }
         .caixa{
-            height: 123vh;
+            height: 125vh;
+        }
+        .devs h2{
+            font-size: 14pt;
         }
         .foto img {
-            margin-left: 25%;
+            margin-left: 13%;
         }
         .info div{
-            margin-bottom: 90%;
-            margin-top: 10%;
+            margin-bottom: 115%;
+            margin-top: 20%;
             width: 80%;
         }
         .Container {
-            padding-top: 4%;
+            padding-top: 7%;
             padding-right: 16%;
         }
         .sobre{
-            height: 125vh;
+            height: 155vh;
         }
         .sobre h1 {
             width: 100%;
@@ -368,9 +368,9 @@ label{
             margin-top: 3%;
         }
         .form-email-footer {
-            padding-left: -10%;
             width: 102vw;
             font-size: 12%;
+            margin-left: -7%;
         }
         .campost {
             position: relative;
@@ -380,7 +380,7 @@ label{
         }
         #botao {
             margin-left: 5%;
-            width: 29%;
+            width: 35%;
             height: 20%;
         }
         label {
@@ -406,7 +406,7 @@ label{
         footer {
             width: 100%;
             text-align: center;
-            margin-top: 800%;
+            margin-top: 1070%;
             height: 380px;
         }
     }
