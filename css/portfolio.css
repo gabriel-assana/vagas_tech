@@ -171,7 +171,7 @@ main{
     object-fit: cover;
     width: 200px;  
     margin-left: 15%;
-    box-shadow: 4px 15px 24px black;
+    box-shadow: 4px 15px 40px black;
 }
 
 .foto a{
@@ -315,12 +315,12 @@ label{
         }
         .home{
             position: relative;
-            left: 5vw;
+            left: 7vw;
          }
         
         .portfolio{
             position: relative;
-            left: 4vw;
+            left: 6vw;
         }
     
         .cadastro{
@@ -343,7 +343,7 @@ label{
             font-size: 14pt;
         }
         .foto img {
-            margin-left: 13%;
+            margin-left: 15%;
         }
         .info div{
             margin-bottom: 115%;
