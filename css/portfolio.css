@@ -320,7 +320,7 @@ label{
         
         .portfolio{
             position: relative;
-            left: 8vw;
+            left: 9vw;
         }
     
         .cadastro{
@@ -357,7 +357,7 @@ label{
             padding-right: 16%;
         }
         .sobre{
-            height: 155vh;
+            height: 140vh;
         }
         .sobre h1 {
             width: 100%;
@@ -367,7 +367,7 @@ label{
         }
         .texto{
             width: 100%;
-            height: 105vh;
+            height: 85%;
             margin-top: 3%;
         }
         .form-email-footer {
