@@ -266,7 +266,7 @@ label{
         
         .portfolio{
             position: relative;
-            left: 6vw;
+            left: 8vw;
         }
     
         .cadastro{
@@ -279,7 +279,7 @@ label{
         .login{
             position: relative;
             z-index: 1;
-            left: -3vw;
+            left: -4vw;
             /* top: -178px; */
         }
         .banner{
@@ -291,7 +291,7 @@ label{
             position: absolute;
             width: 320px;
             margin-left: -3%;
-            left: 28px;
+            left: 9%;
             height: 315px;
             top: 30%;
         }
@@ -409,7 +409,7 @@ label{
         footer {
             width: 100%;
             text-align: center;
-            margin-top: 58%;
+            margin-top: 51%;
             height: 380px;
         }
     }
