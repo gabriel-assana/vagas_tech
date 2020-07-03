@@ -266,7 +266,7 @@ label{
         
         .portfolio{
             position: relative;
-            left: 8vw;
+            left: 7vw;
         }
     
         .cadastro{
@@ -279,7 +279,7 @@ label{
         .login{
             position: relative;
             z-index: 1;
-            left: -4vw;
+            left: -3vw;
             /* top: -178px; */
         }
         .banner{
@@ -290,7 +290,7 @@ label{
         .formulario{
             position: absolute;
             width: 320px;
-            margin-left: 8%;
+            margin-left: 7%;
             height: 315px;
             top: 30%;
         }
@@ -334,7 +334,7 @@ label{
         
         .span-formulario{
             position: relative;
-            left: 50px;
+            left: 48px;
             top: 85px;
         }
         
@@ -408,7 +408,7 @@ label{
         footer {
             width: 100%;
             text-align: center;
-            margin-top: 46%;
+            margin-top: 50%;
             height: 380px;
         }
     }
