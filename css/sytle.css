@@ -290,8 +290,7 @@ label{
         .formulario{
             position: absolute;
             width: 320px;
-            margin-left: -3%;
-            left: 9%;
+            margin-left: 5%;
             height: 315px;
             top: 30%;
         }
@@ -306,7 +305,7 @@ label{
             height: 50vh;
             background-color: #ec1839;
             position: relative;
-            top: 459px;
+            /* top: 459px; */
         }
         
         .missao {
