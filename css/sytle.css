@@ -285,12 +285,12 @@ label{
         .banner{
             width: 100vw;
             height: 93vh;
-            background-image: url(../img/work.jpg);
         }
         
         .formulario{
             position: absolute;
-            width: 310px;
+            width: 320px;
+            margin-left: -3%;
             left: 28px;
             height: 315px;
             top: 30%;
@@ -335,7 +335,7 @@ label{
         
         .span-formulario{
             position: relative;
-            left: 44px;
+            left: 33px;
             top: 85px;
         }
         
@@ -347,13 +347,13 @@ label{
         #location{
             position: absolute;
             top: 140px;
-            left: 14px;
+            left: 23px;
         }
         
         .btn-search{
             position: absolute;
             top: 212px;
-            left: 14px;
+            left: 22px;
         }
         
         .primeira-sessao {
@@ -378,6 +378,9 @@ label{
             margin-left: 5%;
             width: 36%;
             height: 20%;
+        }
+        .div-1{
+            margin-left: 3%;
         }
         label {
             font-size: 19px;
