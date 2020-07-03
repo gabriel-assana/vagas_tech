@@ -66,8 +66,8 @@ header{
 
 .banner{
     width: 100vw;
-    height: 27vw;
-    background-image: url(../img/work.jpg);
+    height: 60vh;
+    background-image: url(../img/work.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -86,21 +86,22 @@ header{
     height: 22vw;
     background-color: #ec1839;
     position:absolute;
-    top: 385px;
+    top: 443px;
+    box-shadow: 0px -4px 23px rgb(36, 36, 36);
 }
 
 .missao{
     position: relative;
-    top: 55px;
-    right: -176px;
-    width: 760px;
+    top: 70px;
+    right: -205px;
+    width: 727px;
     text-align: justify;
-    font-size: 11pt;
+    font-size: 10pt;
+    color: rgb(19, 18, 18);
 }
-
 .span-formulario{
     position: relative;
-    top: 7vw;
+    top: 9vw;
     left: 4vw;
     font-size: 14pt;
     color: white;
@@ -108,13 +109,14 @@ header{
 }
 
 .formulario{
-    background: rgba(0, 0, 0, 0.30);
+    background: rgba(0, 0, 0, 0.884);
     width: 30cm;
     height: 5cm;
     display: flex;
     justify-content: space-between;
     position: absolute;
-    top: 5vw;
+    top: 7vw;
+    border-radius: 3px;
 }
 
 .btn-search{
@@ -129,6 +131,7 @@ header{
     border: solid 2px black;
     padding: 10px;
     font-size: 14pt;
+    border: 0;
 }
 
 #search {
@@ -163,13 +166,13 @@ footer{
     background-color: #000;
     width: 100vw;
     text-align: center;
-    margin-top: 210px;
+    margin-top: 299px;
     color: white;
     height: 420px;
 }
 
 .Container{
-    padding-top: 4%;
+    padding-top: 6%;
     padding-right:29%;
     color: white;
     overflow: hidden;
@@ -181,8 +184,8 @@ footer{
 }
 
 .form-email-footer {
-    padding-right: 4%;
-    padding-top: 4%;
+    padding-left: 6%;
+    padding-top: 3%;
     width: 50vw;
 }
 
@@ -194,12 +197,12 @@ footer{
 }
 
 label{
-    font-size: 29px;
+    font-size: 24px;
     color: white;
 }
 
 .divlogo{
-    margin-top: 8%;
+    margin-top: 6%;
     margin-left: 6%;
 
 }
@@ -214,15 +217,16 @@ label{
 }
 
 #botao{
-    margin-left: 8%;
-    width: 21%;
-    height: 51px;
+    margin-left: 4%;
+    width: 22%;
+    height: 41px;
     border-radius: 10px;
     color: black;
-    font-size: 25px;
+    font-size: 22px;
     border-color: red;
     background-color: red;
     transition: 2000ms;
+    font-weight: bold;
 }
 
 #botao:hover{
@@ -257,12 +261,12 @@ label{
         }
         .home{
             position: relative;
-            left: 5vw;
+            left: 7vw;
          }
         
         .portfolio{
             position: relative;
-            left: 4vw;
+            left: 7vw;
         }
     
         .cadastro{
@@ -281,13 +285,12 @@ label{
         .banner{
             width: 100vw;
             height: 93vh;
-            background-image: url(../img/work.jpg);
         }
         
         .formulario{
             position: absolute;
-            width: 310px;
-            left: 28px;
+            width: 320px;
+            margin-left: 7%;
             height: 315px;
             top: 30%;
         }
@@ -302,7 +305,7 @@ label{
             height: 50vh;
             background-color: #ec1839;
             position: relative;
-            top: 459px;
+            /* top: 459px; */
         }
         
         .missao {
@@ -331,7 +334,7 @@ label{
         
         .span-formulario{
             position: relative;
-            left: 44px;
+            left: 48px;
             top: 85px;
         }
         
@@ -343,13 +346,13 @@ label{
         #location{
             position: absolute;
             top: 140px;
-            left: 14px;
+            left: 23px;
         }
         
         .btn-search{
             position: absolute;
             top: 212px;
-            left: 14px;
+            left: 22px;
         }
         
         .primeira-sessao {
@@ -374,6 +377,9 @@ label{
             margin-left: 5%;
             width: 36%;
             height: 20%;
+        }
+        .div-1{
+            margin-left: 3%;
         }
         label {
             font-size: 19px;
@@ -402,7 +408,7 @@ label{
         footer {
             width: 100%;
             text-align: center;
-            margin-top: 58%;
+            margin-top: 50%;
             height: 380px;
         }
     }
