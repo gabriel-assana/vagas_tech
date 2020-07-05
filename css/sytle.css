@@ -90,6 +90,10 @@ header{
     box-shadow: 0px -4px 23px rgb(36, 36, 36);
 }
 
+.vagas li{
+    font-size: 70%;
+}
+
 .missao{
     position: relative;
     top: 70px;
