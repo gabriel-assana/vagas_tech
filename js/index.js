@@ -11,11 +11,18 @@ async function getRepos(event){
  
  let response = await fetch(urlFront);
  let result = await response.json();
- let vagas = result.results;
-
-     resultado = result.title 
+ 
+ result.forEach(element =>{
+      const card = `
+      <ul class= vagas>
+        <li>Vaga: ${element.title}</li>    
+        <li>Descricao: ${element.body}</li>
+        <br>     
+      </ul>
+  `;
+  
+    document.querySelector('#sessao-vagas').innerHTML += card; 
 
      console.log(result);
-     console.log(resultado);
-
-}
+  });
+};
