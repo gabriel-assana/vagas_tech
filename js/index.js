@@ -16,7 +16,7 @@ async function getRepos(event){
       const card = `
       <ul class= "vagas">
         <li class= "titulo-vagas">Vaga: ${element.title}</li>    
-        <li>Descricao: ${element.body}</li>
+        <li class= "desc-vagas">Descricao: ${element.body}</li>
         <br>     
       </ul>
   `;

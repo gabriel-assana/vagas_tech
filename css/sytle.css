@@ -127,6 +127,12 @@ header{
 .vagas li{
     padding-top: 10px;
 }
+.desc-vagas{
+    justify-content: center;
+    font-size: 11px;
+    display: flex;
+    flex-wrap: wrap;
+}
 #sessao-vagas{
     position: relative;
     background-color: rgb(201, 201, 201);
