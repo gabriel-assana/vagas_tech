@@ -262,12 +262,13 @@ label{
     top: -26px;
 }
 
-@media (max-width: 800px) {
-    @media screen and (max-width: 520px) {
+@media (max-width: 380px) {
+    @media screen and (min-width: 360px) {
         .logo img{
             position: relative;
             width: 260px;
-            right: -11%;
+            right: -5%;
+            padding-right: 44px;
         }
         #menu{   
             width: 100vw;
@@ -275,6 +276,8 @@ label{
         }
         #menu ul{
             margin-bottom: -14%;
+            height: 40%;
+            padding-top: 2px;
         }
         #menu ul li a{
             margin: 0;
@@ -285,18 +288,18 @@ label{
         }
         .home{
             position: relative;
-            left: 7vw;
+            left: -1vw;
          }
         
         .portfolio{
             position: relative;
-            left: 7vw;
+            left: -1vw;
         }
     
         .cadastro{
             position: relative;
             z-index: 1;
-            left: -4vw;
+            left: -12vw;
             /* top: -175px; */
         }
     
@@ -304,19 +307,19 @@ label{
             position: relative;
             z-index: 1;
             left: -3vw;
-            /* top: -178px; */
+            top: -24px;
         }
         .banner{
             width: 100vw;
-            height: 93vh;
+            height: 66vh;
         }
         
         .formulario{
             position: absolute;
-            width: 320px;
+            width: 333px;
             margin-left: 7%;
             height: 315px;
-            top: 30%;
+            top: -5%;
         }
         
         .div-1{
@@ -326,7 +329,7 @@ label{
         .segunda-sessao {
             display: flex;
             width: 100vw;
-            height: 50vh;
+            height: 35vh;
             background-color: #ec1839;
             position: relative;
             /* top: 459px; */
@@ -343,47 +346,55 @@ label{
         .img-visao {
             width: 50vw;
             position: relative;
-            left: 76px;
-            top: 82px;
-            opacity: 0.2;   
+            left: 71px;
+            top: 7px;
+            opacity: 0.1; 
         }
         
         .missao h2{
             width: 69vw;
             position: relative;
-            left: -63px;
-            top: 20%;
+            left: -40px;
+            /* top: -55px; */
             font-size: 11pt;
+            text-align: justify;
         }
-        
+        #sessao-vagas {
+            padding: 0px 30px;
+        }
         .span-formulario{
             position: relative;
-            left: 48px;
-            top: 85px;
+            left: -8px;
+            top: 28px;
         }
         
         #search{
-            left: 14px;
-            top: 60px;
+            left: 22px;
+            top: 200px;
+            position: absolute;
+            width: 80%;
         }
         
         #location{
             position: absolute;
             top: 140px;
-            left: 23px;
+            left: 22px;
+            width: 80%;
         }
         
         .btn-search{
             position: absolute;
-            top: 212px;
+            top: 270px;
             left: 22px;
+            width: 80%;
         }
         
         .primeira-sessao {
             position: absolute;
             width: 100vw;
-            height: 6cm;
-            left: 0px;
+            height: 10cm;
+            left: 0%;
+            top: 25%
         }
         .form-email-footer {
             padding-left: 2%;
@@ -432,7 +443,382 @@ label{
         footer {
             width: 100%;
             text-align: center;
-            margin-top: 50%;
+            /* margin-top: 50%; */
+            height: 380px;
+        }
+    }
+}
+@media (max-width: 330px) {
+    @media screen and (min-width: 320px) {
+        .logo img{
+            position: relative;
+            width: 258px;
+            right: -1%;
+            padding-right: 24px;
+        }
+        #menu{   
+            width: 100vw;
+            height: 4cm;
+        }
+        #menu ul{
+            margin-bottom: -14%;
+            height: 40%;
+            padding-top: 2px;
+        }
+        #menu ul li a{
+            margin: 0;
+            font-size: smaller;
+        }
+        .lista-1{
+            height: 129px;
+        }
+        .home{
+            position: relative;
+            left: -6vw;
+         }
+        
+        .portfolio{
+            position: relative;
+            left: -8vw;
+        }
+    
+        .cadastro{
+            position: relative;
+            z-index: 1;
+            left: -10vw;
+            top: -24px;
+        }
+    
+        .login{
+            position: relative;
+            z-index: 1;
+            left: 49vw;
+            top: -24px;
+        }
+        .banner{
+            width: 100vw;
+            height: 80vh;
+        }
+        
+        .formulario{
+            position: absolute;
+            width: 282px;
+            margin-left: 8%;
+            height: 450px;
+            top: -1%;
+        }
+        
+        .div-1{
+            display: inline;
+        }
+        
+        .segunda-sessao {
+            display: flex;
+            width: 100vw;
+            height: 42vh;
+            background-color: #ec1839;
+            position: relative;
+            /* top: 459px; */
+        }
+        
+        .missao {
+            font-size: 8px;
+            position: relative;
+            top: 13px;
+            right: 63px;
+            width: 717px;
+        }
+        
+        .img-visao {
+            width: 50vw;
+            position: relative;
+            left: 71px;
+            top: 7px;
+            opacity: 0.1; 
+        }
+        
+        .missao h2{
+            width: 69vw;
+            position: relative;
+            left: -40px;
+            /* top: -55px; */
+            font-size: 11pt;
+            text-align: justify;
+        }
+        #sessao-vagas {
+            padding: 0px 30px;
+        }
+        .span-formulario{
+            position: relative;
+            top: 60px;
+            font-size: 12pt;
+            left: -1%;
+        }
+        
+        #search{
+            left: 22px;
+            top: 220px;
+            position: absolute;
+            height: 15%;
+            width: 80%;
+        }
+        
+        #location{
+            position: absolute;
+            top: 140px;
+            left: 22px;
+            height: 15%;
+            width: 80%;
+        }
+        
+        .btn-search{
+            position: absolute;
+            top: 310px;
+            left: 22px;
+            height: 15%;
+            width: 80%;
+        }
+        
+        .primeira-sessao {
+            position: absolute;
+            width: 100vw;
+            height: 12cm;
+        }
+        .form-email-footer {
+            padding-left: 2%;
+            margin-top: 2%;
+            width: 97vw;
+            font-size: 12%;
+        }
+        .campost {
+            position: relative;
+            left: 23px;
+            font-weight: bold;
+            font-size: smaller;
+        }
+        #botao {
+            margin-left: 5%;
+            width: 36%;
+            height: 20%;
+        }
+        .div-1{
+            margin-left: 3%;
+        }
+        label {
+            font-size: 19px;
+        }
+        #email {
+            height: 27px;
+        }
+        .atitulo {
+            top: 0px;
+            font-size: 12pt;
+        }
+        .article-footer{
+            margin-top: 10%;
+        }
+        .divlogo {
+            margin-top: 13%;
+            margin-left: 1%;
+        }
+        .divlogo img {
+            width: 30%;
+        }
+        .Container{
+            padding-right: 11%;
+            padding-top: 8%;
+        }
+        footer {
+            width: 100%;
+            text-align: center;
+            /* margin-top: 50%; */
+            height: 380px;
+        }
+    }
+}
+@media (max-width: 420px) {
+    /* Breakpoint 400px*/
+    @media screen and (min-width: 411px) {
+        .logo img{
+            position: relative;
+            width: 260px;
+            right: -5%;
+        }
+        #menu{   
+            width: 100vw;
+            height: 4cm;
+        }
+        #menu ul{
+            margin-bottom: -14%;
+            height: 40%;
+            padding-top: 2px;
+        }
+        #menu ul li a{
+            margin: 0;
+            font-size: smaller;
+        }
+        .lista-1{
+            height: 129px;
+        }
+        .home{
+            position: relative;
+            left: 2vw;
+        }
+        
+        .portfolio{
+            position: relative;
+            left: 3vw;
+        }
+
+        .cadastro{
+            position: relative;
+            z-index: 1;
+            left: -16vw;
+            /* top: -175px; */
+        }
+
+        .login{
+            position: relative;
+            z-index: 1;
+            left: -5vw;
+            top: -24px;
+        }
+        .banner{
+            width: 100vw;
+            height: 69vh;
+        }
+        
+        .formulario{
+            position: absolute;
+            width: 383px;
+            margin-left: 7%;
+            height: 450px;
+            top: -5%;
+        }
+        
+        .div-1{
+            display: inline;
+        }
+        
+        .segunda-sessao {
+            display: flex;
+            width: 100vw;
+            height: 35vh;
+            background-color: #ec1839;
+            position: relative;
+            /* top: 459px; */
+        }
+        
+        .missao {
+            font-size: 8px;
+            position: relative;
+            top: 13px;
+            right: 63px;
+            width: 717px;
+        }
+        
+        .img-visao {
+            width: 50vw;
+            position: relative;
+            left: 71px;
+            top: 7px;
+            opacity: 0.1; 
+        }
+        
+        .missao h2{
+            width: 69vw;
+            position: relative;
+            left: -40px;
+            /* top: -55px; */
+            font-size: 11pt;
+            text-align: justify;
+        }
+        #sessao-vagas {
+            padding: 0px 30px;
+        }
+        .span-formulario{
+            position: relative;
+            top: 28px;
+        }
+        
+        #search{
+            left: 22px;
+            top: 220px;
+            position: absolute;
+            height: 15%;
+            width: 80%;
+        }
+        
+        #location{
+            position: absolute;
+            top: 140px;
+            left: 22px;
+            height: 15%;
+            width: 80%;
+        }
+        
+        .btn-search{
+            position: absolute;
+            top: 310px;
+            left: 22px;
+            height: 15%;
+            width: 80%;
+        }
+        
+        .primeira-sessao {
+            position: absolute;
+            width: 100vw;
+            height: 12cm;
+            top: 22%;
+        }
+        .form-email-footer {
+            padding-left: 2%;
+            margin-top: 2%;
+            width: 97vw;
+            font-size: 12%;
+        }
+        .campost {
+            position: relative;
+            left: 23px;
+            font-weight: bold;
+            font-size: smaller;
+        }
+        #botao {
+            margin-left: 5%;
+            width: 36%;
+            height: 20%;
+        }
+        .div-1{
+            margin-left: 3%;
+        }
+        label {
+            font-size: 19px;
+        }
+        #email {
+            height: 27px;
+        }
+        .atitulo {
+            top: 0px;
+            font-size: 12pt;
+        }
+        .article-footer{
+            margin-top: 10%;
+        }
+        .divlogo {
+            margin-top: 13%;
+            margin-left: 1%;
+        }
+        .divlogo img {
+            width: 30%;
+        }
+        .Container{
+            padding-right: 11%;
+            padding-top: 8%;
+        }
+        footer {
+            width: 100%;
+            text-align: center;
+            /* margin-top: 50%; */
             height: 380px;
         }
     }
