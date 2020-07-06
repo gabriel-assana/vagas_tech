@@ -292,8 +292,130 @@ label{
     }
 }
 /*seletores para celurares*/
-@media (max-width: 800px) {
-    @media screen and (min-width: 300px) {
+@media (max-width: 330px) {
+    @media screen and (min-width: 320px) {
+        .logo img{
+            position: relative;
+            width: 260px;
+            right: -8%;
+        }
+        #menu{   
+            width: 100vw;
+            height: 4cm;
+        }
+        #menu ul{
+            margin-bottom: -22%;
+        }
+        #menu ul li a{
+            margin: 0;
+            font-size: smaller;
+        }
+        .lista-1{
+            height: 129px;
+        }
+        .home{
+            position: relative;
+            left: 0vw;
+         }
+        
+        .portfolio{
+            position: relative;
+            left: -2vw;
+        }
+    
+        .cadastro{
+            position: relative;
+            z-index: 1;
+            left: -22vw;
+            /* top: -175px; */
+        }
+    
+        .login{
+            position: relative;
+            z-index: 1;
+            left: 0vw;
+            top: -24px;
+        }
+        .caixa{
+            height: 125vh;
+        }
+        .devs h2{
+            font-size: 14pt;
+            height: 10%;
+            padding-top: 6%;
+        }
+        .foto img {
+            margin-left: 10%;
+        }
+        .info div{
+            margin-bottom: 160%;
+            margin-top: 20%;
+            width: 80%;
+        }
+        .Container {
+            padding-top: 7%;
+            padding-right: 16%;
+        }
+        .sobre{
+            height: 160vh;
+        }
+        .sobre h1 {
+            width: 100%;
+            height: 10%;
+            padding: 8% 3%;
+            font-size: 18pt;
+        }
+        .texto{
+            width: 100%;
+            height: 105%;
+            margin-top: 3%;
+        }
+        .form-email-footer {
+            width: 102vw;
+            font-size: 12%;
+            margin-left: -7%;
+        }
+        .campost {
+            position: relative;
+            left: 23px;
+            font-weight: bold;
+            font-size: smaller;
+        }
+        #botao {
+            margin-left: 5%;
+            width: 35%;
+            height: 20%;
+        }
+        label {
+            font-size: 19px;
+        }
+        #email {
+            height: 27px;
+        }
+        .atitulo {
+            top: -2px;
+            font-size: 12pt;
+        }
+        .article-footer{
+            margin-top: 10%;
+        }
+        .divlogo {
+            margin-top: 13%;
+            margin-left: 1%;
+        }
+        .divlogo img {
+            width: 30%;
+        }
+        footer {
+            width: 100%;
+            text-align: center;
+            margin-top: 1340%;
+            height: 380px;
+        }
+    }
+}
+@media (max-width: 380px) {
+    @media screen and (min-width: 360px) {
         .logo img{
             position: relative;
             width: 260px;
@@ -315,12 +437,12 @@ label{
         }
         .home{
             position: relative;
-            left: 9vw;
+            left: 6vw;
          }
         
         .portfolio{
             position: relative;
-            left: 8vw;
+            left: 5vw;
         }
     
         .cadastro{
@@ -410,6 +532,128 @@ label{
             width: 100%;
             text-align: center;
             margin-top: 1100%;
+            height: 380px;
+        }
+    }
+}
+@media (max-width: 420px) {
+    @media screen and (min-width: 411px) {
+        .logo img{
+            position: relative;
+            width: 260px;
+            right: -16%;
+        }
+        #menu{   
+            width: 100vw;
+            height: 4cm;
+        }
+        #menu ul{
+            margin-bottom: -20%;
+        }
+        #menu ul li a{
+            margin: 0;
+            font-size: smaller;
+        }
+        .lista-1{
+            height: 129px;
+        }
+        .home{
+            position: relative;
+            left: 9vw;
+         }
+        
+        .portfolio{
+            position: relative;
+            left: 9vw;
+        }
+    
+        .cadastro{
+            position: relative;
+            z-index: 1;
+            left: -4vw;
+            /* top: -175px; */
+        }
+    
+        .login{
+            position: relative;
+            z-index: 1;
+            left: -5vw;
+            /* top: -178px; */
+        }
+        .caixa{
+            height: 125vh;
+        }
+        .devs h2{
+            font-size: 14pt;
+            height: 10%;
+            padding-top: 6%;
+        }
+        .foto img {
+            margin-left: 20%;
+        }
+        .info div{
+            margin-bottom: 108%;
+            margin-top: 5%;
+            width: 80%;
+        }
+        .Container {
+            padding-top: 7%;
+            padding-right: 16%;
+        }
+        .sobre{
+            height: 130vh;
+        }
+        .sobre h1 {
+            width: 100%;
+            height: 10%;
+            padding: 8% 3%;
+            font-size: 18pt;
+        }
+        .texto{
+            width: 100%;
+            height: 70%;
+            margin-top: 3%;
+        }
+        .form-email-footer {
+            width: 102vw;
+            font-size: 12%;
+            margin-left: -7%;
+        }
+        .campost {
+            position: relative;
+            left: 23px;
+            font-weight: bold;
+            font-size: smaller;
+        }
+        #botao {
+            margin-left: 5%;
+            width: 35%;
+            height: 20%;
+        }
+        label {
+            font-size: 19px;
+        }
+        #email {
+            height: 27px;
+        }
+        .atitulo {
+            top: -2px;
+            font-size: 12pt;
+        }
+        .article-footer{
+            margin-top: 10%;
+        }
+        .divlogo {
+            margin-top: 13%;
+            margin-left: 1%;
+        }
+        .divlogo img {
+            width: 30%;
+        }
+        footer {
+            width: 100%;
+            text-align: center;
+            margin-top: 940%;
             height: 380px;
         }
     }
