@@ -6,20 +6,24 @@
     padding: 0;
     font-family: 'Nunito Sans', sans-serif;
 }
+
 .logo{
     display: flex;
     position: relative;
     justify-content: center;
 }
+
 .img-logo{
     position: absolute;
     padding-right: 60px;
 }
+
 header{
     box-shadow: 0px 0px 10px gray;
     height:13vh;
     background-color: black;
 }
+
 #menu ul {
     padding:0px;
     margin:0px;
