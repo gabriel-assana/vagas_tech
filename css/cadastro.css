@@ -13,7 +13,8 @@ body{
 	position: fixed;
 	bottom: 0;
 	left: 0;
-	height: 100%;
+	width: 52%;
+    height: 63%;
 	z-index: -1;
 }
 
@@ -23,7 +24,6 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap :7rem;
-    padding: 0 2rem;
 }
 
 .img{
@@ -125,7 +125,7 @@ form{
 }
 
 .input-div.focus > .i > i{
-	color: #c95454;
+	color: #ec1839;
 }
 
 .input-div > div > input{
@@ -159,7 +159,7 @@ a{
 }
 
 a:hover{
-	color: #c95454;
+	color: #ec1839;
 }
 
 .btn{
@@ -169,7 +169,7 @@ a:hover{
 	border-radius: 25px;
 	outline: none;
 	border: none;
-	background-image: linear-gradient(to right, #c95454, #c95454, #c95454);
+	background-image: linear-gradient(to right, #ec1839, #ec1839, #ec1839);
 	background-size: 200%;
 	font-size: 1.2rem;
 	color: #fff;
@@ -191,7 +191,7 @@ a:hover{
 	border-radius: 25px;
 	outline: none;
 	border: none;
-	background-image: linear-gradient(to right, #c95454, #c95454, #c95454);
+	background-image: linear-gradient(to right, #ec1839, #ec1839, #ec1839);
 	background-size: 200%;
 	font-size: 1.2rem;
 	color: #fff;
