@@ -32,7 +32,7 @@ async function getRepos(event) {
         <li class= "titulo-vagas">Vaga: ${element.title}</li>    
         <li class= "desc-vagas">Descricao: ${element.body}</li>
         <br>     
-      </ul>
+      </ul> 
   `;
 
         sessaoVaga.innerHTML += vaga;

@@ -10,10 +10,6 @@ body {
     background-color: #000;
 }
 
-.title {
-    color: white;
-}
-
 .wave {
     position: fixed;
     bottom: 0;
