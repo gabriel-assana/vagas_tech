@@ -172,6 +172,12 @@ main{
     width: 200px;  
     margin-left: 15%;
     box-shadow: 4px 15px 40px black;
+    transition: all 2s ease;
+}
+
+.foto img:hover{
+    transition:1s;
+    transform: scale(1.1);
 }
 
 .foto a{
