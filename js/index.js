@@ -13,23 +13,24 @@ async function getRepos(event){
 
  let select = document.getElementById("search");
  let text = select.options[select.selectedIndex].text
+ let vaga =""
 
   if(text == "Front-end"){      
     url = urlFront
+    vaga = ""
   };
 
   if(text == "Back-end"){
     url = urlBack
+    vaga = ""
   };
  
  let response = await fetch(url);
  let result = await response.json();
 
- 
-
  result.forEach(element =>{       
   
-   const vaga = `
+   vaga = `
       <ul class= "vagas">
         <li class= "titulo-vagas">Vaga: ${element.title}</li>    
         <li class= "desc-vagas">Descricao: ${element.body}</li>
