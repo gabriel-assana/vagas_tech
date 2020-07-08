@@ -17,7 +17,12 @@ body{
     height: 63%;
 	z-index: -1;
 }
-
+.logu{
+	position: fixed;
+	bottom: 50%;
+	left: 10%;
+	width: 30%;
+}
 .container{
     width: 100vw;
     height: 100vh;
@@ -48,7 +53,9 @@ form{
 }
 
 .login-content img{
-    height: 100px;
+	height: 100px;
+	animation: infinite flutuar 10s ;
+	border-radius: 50%;
 }
 
 .login-content h2{
@@ -224,6 +231,9 @@ a:hover{
 	.img img{
 		width: 400px;
 	}
+	.logu{
+		display: none;
+	}
 }
 
 @media screen and (max-width: 1024px){
@@ -242,4 +252,23 @@ a:hover{
 	.login-content{
 		justify-content: center;
 	}
+	.logu{
+		display: none;
+	}
+}
+@keyframes flutuar{
+	0% {
+		transform: translateY(-10px);
+	}
+
+
+	50%{
+		transform: translateY(-35px);
+
+	}
+
+	100%{
+		transform: translateY(-10px);
+	}
+
 }
