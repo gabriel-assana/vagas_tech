@@ -54,7 +54,7 @@ form{
 
 .login-content img{
 	height: 100px;
-	animation: infinite flutuar 10s ;
+	animation: infinite flutuar 5s ;
 	border-radius: 50%;
 }
 
@@ -267,7 +267,7 @@ a:hover{
 
 	}
 
-	100%{
+	to{
 		transform: translateY(-10px);
 	}
 
