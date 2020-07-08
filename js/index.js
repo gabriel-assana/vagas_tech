@@ -17,12 +17,10 @@ async function getRepos(event){
 
   if(text == "Front-end"){      
     url = urlFront
-    vaga = ""
   };
 
   if(text == "Back-end"){
     url = urlBack
-    vaga = ""
   };
  
  let response = await fetch(url);
