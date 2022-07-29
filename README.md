@@ -10,7 +10,7 @@ Utilizando uma API disponibilizada pelo proprio GitHub. </p>
 
 
 ### 🛠 Tecnologias
-As seguintes ferramentas foram usadas na construção do projeto:
+As seguintes ferramentas foram usadas na construção do projeto: 
 
 - [HTML]()
 - [CSS]()
