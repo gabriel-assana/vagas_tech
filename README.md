@@ -40,4 +40,3 @@ As seguintes ferramentas foram usadas na construção do projeto:
 👤 - Paulo Machado [![Linkedin](https://img.shields.io/badge/-PauloMachado-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/paulo-machado-34a0461b1/)](https://www.linkedin.com/in/paulo-machado-34a0461b1/) </br>
 👤 - Osmar Roberto [![Linkedin](https://img.shields.io/badge/-OsmarRoberto-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/osmar-roberto-9b1a781a7/)](https://www.linkedin.com/in/osmar-roberto-9b1a781a7/) </br>
 👤 - Leandro Santos [![Linkedin](https://img.shields.io/badge/-LeandroSantos-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/leonardo-santos-b253a5141/)](https://www.linkedin.com/in/leonardo-santos-b253a5141/) </br> 
-
